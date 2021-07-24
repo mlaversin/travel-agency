@@ -1,4 +1,4 @@
-/* GENERAL */
+/* -------- GENERAL -------- */
 
 * {
     margin: 0;
@@ -36,12 +36,22 @@ h2 {
     font-size: 55px;
 }
 
+h4 {
+    font-size: 24px;
+    color: #444
+}
+
+p {
+    line-height: 20px;
+    color: #777;
+}
+
 .orange {
     color: #ff7a00;
 }
 
 
-/* HEADER */
+/* -------- HEADER -------- */
 
 header {
     height: 120px;
@@ -69,7 +79,7 @@ header nav ul li a {
     margin-right: 20px;
 }
 
-/* SECTION HOME */
+/* -------- SECTION HOME -------- */
 
 #home {
     height: 580px;
@@ -96,3 +106,44 @@ header nav ul li a {
     text-align: center;
     border-radius: 3px;
 }
+
+.button-1:hover {
+    background: #02b8dd;
+}
+
+/* -------- DESTINATIONS -------- */
+
+#dest ul {
+    margin: 80px 0;
+}
+
+#dest ul li {
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#dest h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#dest p {
+    margin-bottom: 20px;
+}
+
+#dest-1 {
+    background: url(img/dest-icon-1.png) no-repeat top center;
+}
+
+#dest-2 {
+    background: url(img/dest-icon-2.png) no-repeat top center;
+}
+
+#dest-3 {
+    background: url(img/dest-icon-3.png) no-repeat top center;
+}
+
+/* -------- TOURS -------- */
