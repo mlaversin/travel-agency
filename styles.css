@@ -192,7 +192,7 @@ header nav ul li a:hover {
     height: 100%;
     width: 190px;
     padding: 20px;
-    border-radius: 10px 0 0 10px;
+    border-radius: 9.5px 0 0 10px;
     text-align: center;
     box-sizing: border-box;
 }
@@ -269,7 +269,7 @@ input[type="text"] {
 
 .button-3:hover {
     color:#fff;
-    background-color: #444;
+    background-color: #777;
 }
 
 /* -------- FOOTER -------- */
